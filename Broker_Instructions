@@ -1,0 +1,14 @@
+
+ORDER EXECUTION
+
+The parameter "type": "LIMIT" indicates that you are trying to place an order for margin trading/leveraged trading. 
+To open a margin position, you must have equity in your margin wallet.
+
+By default, your Bitfinex account has three main wallets — one for each of our core features:
+Exchange Wallet is for exchanging funds between currencies supported at Bitfinex;
+Margin Wallet is for trading leveraged short and long positions;
+Funding Wallet is for providing margin funding/financing to other traders.
+Make sure you have funds in the correct wallet before placing an offer or an order. 
+On the Wallet page, you can transfer funds from one wallet to another instantly and for free. For more details, please refer to our article How to transfer funds between Bitfinex wallets.
+
+If you plan to place an exchange order for spot trading, please specify the type as EXCHANGE LIMIT. 
