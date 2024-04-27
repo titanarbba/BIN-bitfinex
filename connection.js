@@ -1,6 +1,6 @@
-"const crypto = require('crypto') 
+const crypto = require('crypto') 
 const WebSocket = require('ws') 
-const fetch = require(""node-fetch"");
+const fetch = require('node-fetch')
 
 
 const apiKey = '759ea083c72a2f76748acd587d6037527b5bd75c368' // const apiKey = 'paste key here'
@@ -20,4 +20,12 @@ const payload = {
 
 const wss = new WebSocket('wss://api.bitfinex.com/ws/2') // Create new Websocket
 
-wss.on('open', () => wss.send(JSON.stringify(payload)))"
+wss.on('open', () => wss.send(JSON.stringify(payload)))
+
+
+// to check connection established
+
+wss.on('message', (msg) => console.log(msg.toString()))
+
+
+
