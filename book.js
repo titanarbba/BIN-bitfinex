@@ -1,4 +1,4 @@
-"const ws = require('ws')
+const ws = require('ws')
 const w = new ws('wss://api-pub.bitfinex.com/ws/2')
 
 w.on('open', () => w.send(msg))
@@ -12,5 +12,5 @@ let msg = JSON.stringify({
   prec: 'R0',
   symbol: 'tBTCUSD',
   
-})"
+})
 
