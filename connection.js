@@ -3,6 +3,8 @@ const WebSocket = require('ws')
 const fetch = require('node-fetch')
 //test
 
+//test2
+
 const apiKey = '759ea083c72a2f76748acd587d6037527b5bd75c368' // const apiKey = 'paste key here'
 const apiSecret = '8b080a24c1727fa666a10cfcfc220619b7dc8ee8892' // const apiSecret = 'paste secret here'
 
